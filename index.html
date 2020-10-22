@@ -55,10 +55,18 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Team</a>
+              <a
+                class="nav-link"
+                href="https://2020.igem.org/Team:IIT_Roorkee/Team"
+                >Team</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contribute</a>
+              <a
+                class="nav-link"
+                href="https://github.com/TEAM-IGEM-IIT-ROORKEE/tailscout"
+                >Contribute</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">FAQs</a>
@@ -80,18 +88,22 @@
           <div class="hero-title">TailScout</div>
           <div class="hero-description">
             TailScout is made with a purpose to create novel Engineered tail
-            proteins, It is first of its kind web application developed to
+            proteins. It is first of its kind web application developed to
             combat the menace created by the Multi-Drug Resistant pathogens. It
-            will allow you to detect or create different tails and thus creates
+            will allow you to detect different phage tails and thus create
             engineered R-type pyocins with varying spectra of killing.
           </div>
           <div class="hero-buttons">
-            <a href="form.html"><button type="button" class="btn btn-primary btn-lg">
-              <i class="fas fa-bacterium"></i> Start Modelling
-            </button></a>
-            <button type="button" class="btn btn-success btn-lg">
-              <i class="fab fa-github"></i> Contribute
-            </button>
+            <a href="./form.html"
+              ><button type="button" class="btn btn-primary btn-lg">
+                <i class="fas fa-bacterium"></i> Start Modelling
+              </button></a
+            >
+            <a href="https://github.com/TEAM-IGEM-IIT-ROORKEE/tailscout">
+              <button type="button" class="btn btn-success btn-lg">
+                <i class="fab fa-github"></i> Contribute
+              </button>
+            </a>
           </div>
         </div>
         <div class="hero-right">
@@ -102,9 +114,7 @@
             />
             Your browser does not support the video tag.
           </video>
-          <div class="hero-video-description">
-            Video description can go here!
-          </div>
+          <div class="hero-video-description">Walkthrough</div>
         </div>
       </div>
 
@@ -123,51 +133,34 @@
           <div class="col-lg-4 feature-box">
             <div class="feature-step">1</div>
             <img
-              src="assets/images/virus.svg"
+              src="assets/images/1.png"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
-            <h2>Gene Detection</h2>
-            <p>
-              Gene detection is a unique algorithm which helps the program in
-              searching for the most lytic phage tail from a pool of tail fibers
-              compiled using genome databases of Bacteriophages.
-            </p>
+            <h2>Tail Fibre Detection</h2>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4 feature-box">
             <div class="feature-step">2</div>
             <img
-              src="assets/images/dna.svg"
+              src="assets/images/2.png"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
             <h2>Multiple Sequence Alignment</h2>
-            <p>
-              This feature will help you in performing sequence alignment of all
-              the bacteriophages of the particular host bacteria so as to find
-              the region responsible for lytic activity of the particular phage.
-              This will in the end give you the sequence of the engineered
-              protein.
-            </p>
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4 feature-box">
             <div class="feature-step">3</div>
             <img
-              src="assets/images/bacterium.svg"
+              src="assets/images/3.png"
               alt="Generic placeholder image"
               width="140"
               height="140"
             />
-            <h2>Secondary Protein Structure Prediction</h2>
-            <p>
-              Secondary structure protein prediction is one of most inportant
-              process in the program by which the engineered protein structure
-              is predicted using the predifeined Jnet algorithm of Jpred.
-            </p>
+            <h2>Protein Secondary Structure Prediction</h2>
           </div>
           <!-- /.col-lg-4 -->
         </div>
@@ -179,21 +172,17 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">
-              First featurette heading.
-              <span class="text-muted">It'll blow your mind.</span>
-            </h2>
+            <h2 class="featurette-heading" id="step-1">Tail Fibre Detection</h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+              Tail Fibre Detection is a unique algorithm which helps the program
+              in searching for the most lytic phage tail from a pool of tail
+              fibers compiled using genome databases of Bacteriophages.
             </p>
           </div>
           <div class="col-md-5 featurette-image-container">
             <img
               class="featurette-image img-fluid mx-auto"
-              src="assets/images/computer.svg"
+              src="assets/images/1.png"
               alt="Generic placeholder image"
             />
           </div>
@@ -203,21 +192,21 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">
-              Oh yeah, it's that good.
-              <span class="text-muted">See for yourself.</span>
+            <h2 class="featurette-heading" id="step-2">
+              Multiple Sequence Alignment
             </h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+              This feature will help you in performing sequence alignment of all
+              the bacteriophages of the particular host bacteria so as to find
+              the region responsible for lytic activity of the particular phage.
+              This will in the end give you the sequence of the engineered
+              protein.
             </p>
           </div>
           <div class="col-md-5 order-md-1 featurette-image-container">
             <img
               class="featurette-image img-fluid mx-auto"
-              src="assets/images/science.svg"
+              src="assets/images/2.png"
               alt="Generic placeholder image"
             />
           </div>
@@ -227,20 +216,19 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">
-              And lastly, this one. <span class="text-muted">Checkmate.</span>
+            <h2 class="featurette-heading" id="step-3">
+              Protein Secondary Structure Prediction
             </h2>
             <p class="lead">
-              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-              ligula porta felis euismod semper. Praesent commodo cursus magna,
-              vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-              commodo.
+              Secondary structure protein prediction is one of most inportant
+              process in the program by which the engineered protein structure
+              is predicted using the predifeined Jnet algorithm of Jpred.
             </p>
           </div>
           <div class="col-md-5 featurette-image-container">
             <img
               class="featurette-image img-fluid mx-auto"
-              src="assets/images/result.svg"
+              src="assets/images/3.png"
               alt="Generic placeholder image"
             />
           </div>
@@ -256,11 +244,7 @@
     </main>
 
     <footer class="footer container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>
-        Made with ❤️ by iGEM IIT Roorkee &middot;
-        <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-      </p>
+      <p style="text-align: center;">Made with ❤️ by iGEM IIT Roorkee</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
